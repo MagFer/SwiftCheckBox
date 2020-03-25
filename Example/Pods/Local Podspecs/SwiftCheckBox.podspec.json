@@ -1,0 +1,22 @@
+{
+  "name": "SwiftCheckBox",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftCheckBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ian Magarzo/SwiftCheckBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ian Magarzo": "ian.magfer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ian Magarzo/SwiftCheckBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftCheckBox/Classes/**/*"
+}

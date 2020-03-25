@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCheckBox (0.1.0)
+
+DEPENDENCIES:
+  - SwiftCheckBox (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCheckBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftCheckBox: 018ca7a853f98b27c4e3c3639c1c9ba9cfa29575
+
+PODFILE CHECKSUM: 5a5fe2bdd8ecc4ae784c4c29b308e09ff035d43d
+
+COCOAPODS: 1.9.1
