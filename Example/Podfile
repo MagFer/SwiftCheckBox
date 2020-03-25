@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftCheckBox_Example' do
+  pod 'SwiftCheckBox', :path => '../'
+
+  target 'SwiftCheckBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
