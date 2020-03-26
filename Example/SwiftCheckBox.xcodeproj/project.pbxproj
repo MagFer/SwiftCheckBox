@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		1D10A17EA285CF82360AFAE9 /* Pods-SwiftCheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCheckBox_Example/Pods-SwiftCheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		324A753CB9CA781C0E883B6D /* Pods_SwiftCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39433EF5025B36293B9EBA59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3FF86309EC284DCA2703ACEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		39433EF5025B36293B9EBA59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3FF86309EC284DCA2703ACEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		493FD4EB2C0B2B47FFBFB3E3 /* Pods-SwiftCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCheckBox_Tests/Pods-SwiftCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53CFE8113CC0DCABE877835A /* Pods_SwiftCheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwiftCheckBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheckBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* SwiftCheckBox_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCheckBox_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8CCF343917E9B0F550ECD99C /* SwiftCheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftCheckBox.podspec; path = ../SwiftCheckBox.podspec; sourceTree = "<group>"; };
+		8CCF343917E9B0F550ECD99C /* SwiftCheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftCheckBox.podspec; path = ../SwiftCheckBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F48BD262E7D159E73BB1664 /* Pods-SwiftCheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckBox_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftCheckBox_Example/Pods-SwiftCheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1214ED1EDE213973E777877 /* Pods-SwiftCheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCheckBox_Tests/Pods-SwiftCheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				F1214ED1EDE213973E777877 /* Pods-SwiftCheckBox_Tests.debug.xcconfig */,
 				493FD4EB2C0B2B47FFBFB3E3 /* Pods-SwiftCheckBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
