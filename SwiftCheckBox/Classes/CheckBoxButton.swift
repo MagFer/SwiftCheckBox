@@ -34,11 +34,27 @@ public class CheckBoxButton: UIButton {
     
     private func commonInit() {
         setTitle("", for: .normal)
-        let uncheckedImg = UIImage(named: "unchecked_checkbox", in: Bundle(for: CheckBoxButton.self), compatibleWith: nil)
-        setImage(uncheckedImg, for: .normal)
+        let appBundle = Bundle(for: Self.self)
+        print("App bundle: \(appBundle)")
+        let assetsBundleURL = appBundle.bundleURL.appendingPathComponent("SwiftCheckBoxImgs.bundle")
+        guard let assetsBundle = Bundle(url: assetsBundleURL) else {
+            fatalError("nil bundle")
+        }
+        
+//        let uncheckedImg = UIImage(named: "icons8-unchecked_checkbox.pdf",
+//                                   in: assetsBundle, compatibleWith: nil)
+        let uncheckedImg = UIImage(named: "icons8-unchecked_checkbox.pdf",
+                                   in: assetsBundle, compatibleWith: nil)
+        
+        let image = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old")
+        
+        let imageF = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old 2")
+
+        
+        setImage(image, for: .normal)
         setTitle("", for: .selected)
         let checkedImg = UIImage(named: "checked_checkbox", in: Bundle(for: CheckBoxButton.self), compatibleWith: nil)
-        setImage(checkedImg, for: .selected)
+        setImage(imageF, for: .selected)
         
         addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
     }
