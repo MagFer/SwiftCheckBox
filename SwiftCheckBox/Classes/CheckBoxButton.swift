@@ -49,12 +49,20 @@ public class CheckBoxButton: UIButton {
         let image = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old")
         
         let imageF = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old 2")
+        
+
 
         
-        setImage(image, for: .normal)
+        let imgsBundle = Bundle(url: Bundle(for: CheckBoxButton.self).bundleURL.appendingPathComponent("SwiftCheckBoxImgs.bundle", isDirectory: true))
+        let checkedImgTest = UIImage(named: "icons8-unchecked_checkboxPNG", in: imgsBundle, compatibleWith: nil)
+        
+        let uncheckedImgPNG = UIImage(named: "icons8-unchecked_checkboxPNG",
+                                      in: assetsBundle, compatibleWith: nil)
+        setImage(uncheckedImgPNG, for: .normal)
         setTitle("", for: .selected)
-        let checkedImg = UIImage(named: "checked_checkbox", in: Bundle(for: CheckBoxButton.self), compatibleWith: nil)
-        setImage(imageF, for: .selected)
+        
+        let checkedImg = UIImage(podAssetName: "icons8-search-pdf") //FUNCIONA
+        setImage(checkedImg, for: .selected)
         
         addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
     }
@@ -65,4 +73,24 @@ public class CheckBoxButton: UIButton {
         selectedBlock?(self.isSelected)
     }
 
+}
+
+//https://github.com/CocoaPods/CocoaPods/issues/1892
+extension UIImage {
+    
+   convenience init?(podAssetName: String) {
+       let podBundle = Bundle(for: CheckBoxButton.self)
+      
+       /// A given class within your Pod framework
+       guard let url = podBundle.url(forResource: "SwiftCheckBoxImgs",
+                                     withExtension: "bundle") else {
+           return nil
+                                       
+       }
+
+       self.init(named: podAssetName,
+                 in: Bundle(url: url),
+                 compatibleWith: nil)
+   }
+    
 }
