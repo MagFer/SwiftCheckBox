@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256DA7FA7D8D27B58BC60A1BA1179169 /* SwiftCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62250AE9E16C4C6972C807C14CDBCB1C /* SwiftCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256DA7FA7D8D27B58BC60A1BA1179169 /* SwiftCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9968DEFF6209FAA778DC3089780028BE /* SwiftCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		264CCB407F52775C910B0408DAF75574 /* Pods-SwiftCheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D533EDB63AB7FFF7713F4044E69B4 /* Pods-SwiftCheckBox_Tests-dummy.m */; };
+		38D8D1DD844F3C81AB3E31198A9CA0DF /* unchecked_checkboxPNG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE230284FB3CE9C1E926D516CEC4D2E3 /* unchecked_checkboxPNG@3x.png */; };
 		46C611245BA1B66980FEE9B12A9A43BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		53B41B64EBA4A95B7962201D3DD9B85A /* icons8-unchecked_checkboxPNG@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 964A7BC4F0E8445F1E8378FC6F785B44 /* icons8-unchecked_checkboxPNG@1x.png */; };
-		5659F2C4A3CB923630D04D94A14A49D9 /* icons8-unchecked_checkboxPNG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80056C3BDA778B6AF2BDB7B4DEF03D9E /* icons8-unchecked_checkboxPNG@3x.png */; };
+		4A7533497333E9C3A99D75E39E5926C0 /* unchecked_checkboxPNG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872855AA296AAE1CF07EC70C6C46C283 /* unchecked_checkboxPNG@2x.png */; };
 		66708E612AB4FB1199D83FAF2CCC73B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		68B801418EB040DB9CF2EBA93ED874F9 /* unchecked_checkboxPNG@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E15BBDDBC013021D3A3B0062D2E79B /* unchecked_checkboxPNG@1x.png */; };
 		79EB173CC76C90FA30AE1547805F12B0 /* Pods-SwiftCheckBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA25A7BA404BBE3B567276BCC13EEB2 /* Pods-SwiftCheckBox_Example-dummy.m */; };
-		888D10A6B0B8C616F6909B4FC9C7C5AC /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BCD2D13CF708D688C18B33E427185 /* CheckBoxButton.swift */; };
-		900A83CB47262AF0C445C1B527A44FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B2C18A4278BD95E1740B84AF5DC15C /* Assets.xcassets */; };
+		7CAEF04B4DA827CD4B7CD1009E7B436A /* unchecked_checkboxPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2515684E5D0131DE708DDDD126B1 /* unchecked_checkboxPDF.pdf */; };
+		888D10A6B0B8C616F6909B4FC9C7C5AC /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDC0780015D966123B7AB54627E745 /* CheckBoxButton.swift */; };
 		906D5E695B11B5FF04D26400E89FFCB3 /* Pods-SwiftCheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AB42D177086B197CA3A5EBEFB67AB6 /* Pods-SwiftCheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E341D3C68EBBD9C1A6E20417FB4A7A /* icons8-checked_checkbox.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD8D124F5E3DD86297EFDB8EFC758726 /* icons8-checked_checkbox.pdf */; };
-		94231B75E0B0692ACDF519719A054955 /* SwiftCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB1A15321C5E3BB58EE4A1CA5F39C8 /* SwiftCheckBox-dummy.m */; };
-		9AFE7EE642B640096639CA0A53A720F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8913249772E27ED0D7C67548D1B1107D /* Images.xcassets */; };
-		9E813A52E003C48A30306B6A0339AD00 /* icons8-facebook_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF3A46C5E97641ECA49CC4C72078D8C /* icons8-facebook_old.png */; };
-		BBA3523185EA08CAF660C4319790F0A9 /* icons8-unchecked_checkbox.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 23398A131A37F5F1C0A49E0B4670C5A6 /* icons8-unchecked_checkbox.pdf */; };
+		94231B75E0B0692ACDF519719A054955 /* SwiftCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6030D0993B7D7C2F61CC5C97A2737039 /* SwiftCheckBox-dummy.m */; };
 		BE37E0D006C68B9203DD74AD32DDCED5 /* SwiftCheckBoxImgs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0DD116B9E46AC69D9A58DE3CC19C3 /* SwiftCheckBoxImgs.bundle */; };
 		CBC47D395A2900A56A86ACA3A3A93A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		DAD2653E87009F400CF0D26C7AE95965 /* Pods-SwiftCheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0173E1D94FD3808EC14EAB5458E09BBC /* Pods-SwiftCheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E124A7AE97DBBDFE9F6424CBF16953C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		F57BAB11D8BA6ACA5B33D503A7EE2946 /* icons8-unchecked_checkboxPNG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0551C7982524E9B97F0063B1662E2958 /* icons8-unchecked_checkboxPNG@2x.png */; };
+		FAD0E7DE966CA370DED5B3F33653696C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7012A024FEFD29E1FEBFFC57666AE416 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,50 +51,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0111EA7A688D10EC90D9C90D403BC991 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0173E1D94FD3808EC14EAB5458E09BBC /* Pods-SwiftCheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		0551C7982524E9B97F0063B1662E2958 /* icons8-unchecked_checkboxPNG@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-unchecked_checkboxPNG@2x.png"; path = "SwiftCheckBox/Assets/icons8-unchecked_checkboxPNG@2x.png"; sourceTree = "<group>"; };
 		144401E31331FF8AE2DDFA3EE6FC0EEF /* Pods-SwiftCheckBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		168D533EDB63AB7FFF7713F4044E69B4 /* Pods-SwiftCheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		21B2C18A4278BD95E1740B84AF5DC15C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftCheckBox/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		23398A131A37F5F1C0A49E0B4670C5A6 /* icons8-unchecked_checkbox.pdf */ = {isa = PBXFileReference; includeInIndex = 1; name = "icons8-unchecked_checkbox.pdf"; path = "SwiftCheckBox/Assets/icons8-unchecked_checkbox.pdf"; sourceTree = "<group>"; };
-		25EF9CDE821759370BEE890D795C0E93 /* SwiftCheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftCheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2AF3A46C5E97641ECA49CC4C72078D8C /* icons8-facebook_old.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-facebook_old.png"; path = "SwiftCheckBox/Assets/icons8-facebook_old.png"; sourceTree = "<group>"; };
+		20B07119975AAADD689BEFA7587A7FAC /* SwiftCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCheckBox.release.xcconfig; sourceTree = "<group>"; };
 		2BA25A7BA404BBE3B567276BCC13EEB2 /* Pods-SwiftCheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCheckBox_Example-dummy.m"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		351C1D72CD6DE124AD29785594A95DF8 /* SwiftCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCheckBox-Info.plist"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		48C1EDAEBC85B0F3CD523038B4842357 /* SwiftCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCheckBox.debug.xcconfig; sourceTree = "<group>"; };
-		52E2C1CC9665C5BEBC674924067925F6 /* Pods_SwiftCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCheckBox_Tests.framework; path = "Pods-SwiftCheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE0DD116B9E46AC69D9A58DE3CC19C3 /* SwiftCheckBoxImgs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftCheckBoxImgs.bundle; path = "SwiftCheckBox-SwiftCheckBoxImgs.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62250AE9E16C4C6972C807C14CDBCB1C /* SwiftCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		44E15BBDDBC013021D3A3B0062D2E79B /* unchecked_checkboxPNG@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "unchecked_checkboxPNG@1x.png"; path = "SwiftCheckBox/Assets/unchecked_checkboxPNG@1x.png"; sourceTree = "<group>"; };
+		4EBDC0780015D966123B7AB54627E745 /* CheckBoxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxButton.swift; path = SwiftCheckBox/Classes/CheckBoxButton.swift; sourceTree = "<group>"; };
+		52E2C1CC9665C5BEBC674924067925F6 /* Pods_SwiftCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE0DD116B9E46AC69D9A58DE3CC19C3 /* SwiftCheckBoxImgs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCheckBoxImgs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6030D0993B7D7C2F61CC5C97A2737039 /* SwiftCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCheckBox-dummy.m"; sourceTree = "<group>"; };
 		6CAD36B790FF677084E0698F6F1F4463 /* Pods-SwiftCheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7012A024FEFD29E1FEBFFC57666AE416 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftCheckBox/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		70A08115E2973D63CD556F50067EC21C /* Pods-SwiftCheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		80056C3BDA778B6AF2BDB7B4DEF03D9E /* icons8-unchecked_checkboxPNG@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-unchecked_checkboxPNG@3x.png"; path = "SwiftCheckBox/Assets/icons8-unchecked_checkboxPNG@3x.png"; sourceTree = "<group>"; };
-		8913249772E27ED0D7C67548D1B1107D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwiftCheckBox/Assets/Images.xcassets; sourceTree = "<group>"; };
-		896BCD2D13CF708D688C18B33E427185 /* CheckBoxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxButton.swift; path = SwiftCheckBox/Classes/CheckBoxButton.swift; sourceTree = "<group>"; };
+		872855AA296AAE1CF07EC70C6C46C283 /* unchecked_checkboxPNG@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "unchecked_checkboxPNG@2x.png"; path = "SwiftCheckBox/Assets/unchecked_checkboxPNG@2x.png"; sourceTree = "<group>"; };
 		8BA9018573790DD08800433ACE1FE1A2 /* Pods-SwiftCheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftCheckBox_Example.modulemap"; sourceTree = "<group>"; };
+		8E4CE3265C0431BF0B3626C9FADB2043 /* SwiftCheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftCheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944FA28413C8508BAC706CE35D200C15 /* SwiftCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheckBox-prefix.pch"; sourceTree = "<group>"; };
 		94AB42D177086B197CA3A5EBEFB67AB6 /* Pods-SwiftCheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		964A7BC4F0E8445F1E8378FC6F785B44 /* icons8-unchecked_checkboxPNG@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icons8-unchecked_checkboxPNG@1x.png"; path = "SwiftCheckBox/Assets/icons8-unchecked_checkboxPNG@1x.png"; sourceTree = "<group>"; };
-		98F091189E2C506C62AF7EBCC691A227 /* ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1689C27733762DEB7BA01B26FEFFC89 /* SwiftCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheckBox-prefix.pch"; sourceTree = "<group>"; };
-		A277F41EBC68839E97A8C0E67112CC03 /* Pods_SwiftCheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCheckBox_Example.framework; path = "Pods-SwiftCheckBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A438E5A7E15199C050C63C3DD4F6CF0A /* SwiftCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCheckBox.release.xcconfig; sourceTree = "<group>"; };
+		9693D28AE1798B961C589231D874A5F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9968DEFF6209FAA778DC3089780028BE /* SwiftCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A277F41EBC68839E97A8C0E67112CC03 /* Pods_SwiftCheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D78341ADE619C96ED0C2217B6C0F0 /* Pods-SwiftCheckBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckBox_Example-Info.plist"; sourceTree = "<group>"; };
-		ACAB1A15321C5E3BB58EE4A1CA5F39C8 /* SwiftCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCheckBox-dummy.m"; sourceTree = "<group>"; };
 		B69258FB86B5F37706EF7D1CA7BA18B9 /* Pods-SwiftCheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftCheckBox_Tests.modulemap"; sourceTree = "<group>"; };
 		B7FA17A1FAFA0CE3964E72A9141C76BE /* Pods-SwiftCheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		B8F2E1D650B8C6F4AC45B2911313474C /* SwiftCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCheckBox.modulemap; sourceTree = "<group>"; };
+		BBA8AC74D1FD36234D448A48E0608498 /* ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist"; sourceTree = "<group>"; };
+		BE230284FB3CE9C1E926D516CEC4D2E3 /* unchecked_checkboxPNG@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "unchecked_checkboxPNG@3x.png"; path = "SwiftCheckBox/Assets/unchecked_checkboxPNG@3x.png"; sourceTree = "<group>"; };
 		BFB1A613828F0BB1C2056CB26F965E43 /* Pods-SwiftCheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A6DA628114B6B8F3A4D91F81E1EC9C /* Pods-SwiftCheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C7C1500DBE53259CB61A505077FE56C3 /* Pods-SwiftCheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0EF570E5D4A6184C53063965D606E7A /* Pods-SwiftCheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D47B715160825FACD10E3386AE6EA61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E52E890BB1E9E9E109EA5FB645FF7A25 /* SwiftCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCheckBox.modulemap; sourceTree = "<group>"; };
 		E93F64D8D359AA5445172D26DB608C7C /* Pods-SwiftCheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E9C0FFC7703E2191F8239B17B2138838 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ED7A2233CD4D1C5476F5E85EA3CC63AF /* SwiftCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCheckBox-Info.plist"; sourceTree = "<group>"; };
-		F03CAE252DC8A068CD2DB8883B93E6D1 /* SwiftCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCheckBox.framework; path = SwiftCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03CAE252DC8A068CD2DB8883B93E6D1 /* SwiftCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F656AAC1B13E048A3D67273034C24AF3 /* SwiftCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCheckBox.debug.xcconfig; sourceTree = "<group>"; };
 		FB8969CE2C3E31130303CFFBB8378EA8 /* Pods-SwiftCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FD8D124F5E3DD86297EFDB8EFC758726 /* icons8-checked_checkbox.pdf */ = {isa = PBXFileReference; includeInIndex = 1; name = "icons8-checked_checkbox.pdf"; path = "SwiftCheckBox/Assets/icons8-checked_checkbox.pdf"; sourceTree = "<group>"; };
+		FB9F2515684E5D0131DE708DDDD126B1 /* unchecked_checkboxPDF.pdf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.pdf; name = unchecked_checkboxPDF.pdf; path = SwiftCheckBox/Assets/unchecked_checkboxPDF.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +149,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		271CA3D08520CBB5FE7EED46BF375151 /* SwiftCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				4EBDC0780015D966123B7AB54627E745 /* CheckBoxButton.swift */,
+				996A63DC4A607C4D7E961A400BEFCB03 /* Pod */,
+				2A7D9ED9424C2820B3878639D33A3D4D /* Resources */,
+				DB7B867E4A2F5BC8624378340B039601 /* Support Files */,
+			);
+			name = SwiftCheckBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A7D9ED9424C2820B3878639D33A3D4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7012A024FEFD29E1FEBFFC57666AE416 /* Assets.xcassets */,
+				FB9F2515684E5D0131DE708DDDD126B1 /* unchecked_checkboxPDF.pdf */,
+				44E15BBDDBC013021D3A3B0062D2E79B /* unchecked_checkboxPNG@1x.png */,
+				872855AA296AAE1CF07EC70C6C46C283 /* unchecked_checkboxPNG@2x.png */,
+				BE230284FB3CE9C1E926D516CEC4D2E3 /* unchecked_checkboxPNG@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		31D80E436ADE7037FC9EDB405A9548D0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,33 +180,6 @@
 				7F7450A5762D4C8B201F124FD9741CC7 /* Pods-SwiftCheckBox_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4393410057C2C54787B08729EEAA3A99 /* SwiftCheckBox */ = {
-			isa = PBXGroup;
-			children = (
-				896BCD2D13CF708D688C18B33E427185 /* CheckBoxButton.swift */,
-				A544BC97E80AC11D7B51B3502C86F747 /* Pod */,
-				53DB8B9A50CB4B2C64BCDB5AA0ACC340 /* Resources */,
-				DF98AD0330CD1B0E7D751B348EEC5359 /* Support Files */,
-			);
-			name = SwiftCheckBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		53DB8B9A50CB4B2C64BCDB5AA0ACC340 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				21B2C18A4278BD95E1740B84AF5DC15C /* Assets.xcassets */,
-				FD8D124F5E3DD86297EFDB8EFC758726 /* icons8-checked_checkbox.pdf */,
-				2AF3A46C5E97641ECA49CC4C72078D8C /* icons8-facebook_old.png */,
-				23398A131A37F5F1C0A49E0B4670C5A6 /* icons8-unchecked_checkbox.pdf */,
-				964A7BC4F0E8445F1E8378FC6F785B44 /* icons8-unchecked_checkboxPNG@1x.png */,
-				0551C7982524E9B97F0063B1662E2958 /* icons8-unchecked_checkboxPNG@2x.png */,
-				80056C3BDA778B6AF2BDB7B4DEF03D9E /* icons8-unchecked_checkboxPNG@3x.png */,
-				8913249772E27ED0D7C67548D1B1107D /* Images.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		6B00BB0639E7162C388FD9B84FA39DD4 /* Pods-SwiftCheckBox_Example */ = {
@@ -211,7 +202,7 @@
 		7360C18D9159E5AAB1426004E43C9D84 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4393410057C2C54787B08729EEAA3A99 /* SwiftCheckBox */,
+				271CA3D08520CBB5FE7EED46BF375151 /* SwiftCheckBox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -232,12 +223,12 @@
 			path = "Target Support Files/Pods-SwiftCheckBox_Tests";
 			sourceTree = "<group>";
 		};
-		A544BC97E80AC11D7B51B3502C86F747 /* Pod */ = {
+		996A63DC4A607C4D7E961A400BEFCB03 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E9C0FFC7703E2191F8239B17B2138838 /* LICENSE */,
-				D47B715160825FACD10E3386AE6EA61A /* README.md */,
-				25EF9CDE821759370BEE890D795C0E93 /* SwiftCheckBox.podspec */,
+				9693D28AE1798B961C589231D874A5F9 /* LICENSE */,
+				0111EA7A688D10EC90D9C90D403BC991 /* README.md */,
+				8E4CE3265C0431BF0B3626C9FADB2043 /* SwiftCheckBox.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -253,17 +244,17 @@
 			);
 			sourceTree = "<group>";
 		};
-		DF98AD0330CD1B0E7D751B348EEC5359 /* Support Files */ = {
+		DB7B867E4A2F5BC8624378340B039601 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98F091189E2C506C62AF7EBCC691A227 /* ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist */,
-				E52E890BB1E9E9E109EA5FB645FF7A25 /* SwiftCheckBox.modulemap */,
-				ACAB1A15321C5E3BB58EE4A1CA5F39C8 /* SwiftCheckBox-dummy.m */,
-				ED7A2233CD4D1C5476F5E85EA3CC63AF /* SwiftCheckBox-Info.plist */,
-				A1689C27733762DEB7BA01B26FEFFC89 /* SwiftCheckBox-prefix.pch */,
-				62250AE9E16C4C6972C807C14CDBCB1C /* SwiftCheckBox-umbrella.h */,
-				48C1EDAEBC85B0F3CD523038B4842357 /* SwiftCheckBox.debug.xcconfig */,
-				A438E5A7E15199C050C63C3DD4F6CF0A /* SwiftCheckBox.release.xcconfig */,
+				BBA8AC74D1FD36234D448A48E0608498 /* ResourceBundle-SwiftCheckBoxImgs-SwiftCheckBox-Info.plist */,
+				B8F2E1D650B8C6F4AC45B2911313474C /* SwiftCheckBox.modulemap */,
+				6030D0993B7D7C2F61CC5C97A2737039 /* SwiftCheckBox-dummy.m */,
+				351C1D72CD6DE124AD29785594A95DF8 /* SwiftCheckBox-Info.plist */,
+				944FA28413C8508BAC706CE35D200C15 /* SwiftCheckBox-prefix.pch */,
+				9968DEFF6209FAA778DC3089780028BE /* SwiftCheckBox-umbrella.h */,
+				F656AAC1B13E048A3D67273034C24AF3 /* SwiftCheckBox.debug.xcconfig */,
+				20B07119975AAADD689BEFA7587A7FAC /* SwiftCheckBox.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftCheckBox";
@@ -352,7 +343,7 @@
 			buildPhases = (
 				80548AF310163DEFF34B0A7A7B9B735A /* Sources */,
 				B7AC4240ABF3E6A3B4941A11088C3CDD /* Frameworks */,
-				0C62D7C2205904C75B6BE3E88817E7AD /* Resources */,
+				64146516CE4EBEF585B4DB36CEEFB983 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -413,18 +404,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C62D7C2205904C75B6BE3E88817E7AD /* Resources */ = {
+		64146516CE4EBEF585B4DB36CEEFB983 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900A83CB47262AF0C445C1B527A44FD0 /* Assets.xcassets in Resources */,
-				92E341D3C68EBBD9C1A6E20417FB4A7A /* icons8-checked_checkbox.pdf in Resources */,
-				9E813A52E003C48A30306B6A0339AD00 /* icons8-facebook_old.png in Resources */,
-				BBA3523185EA08CAF660C4319790F0A9 /* icons8-unchecked_checkbox.pdf in Resources */,
-				53B41B64EBA4A95B7962201D3DD9B85A /* icons8-unchecked_checkboxPNG@1x.png in Resources */,
-				F57BAB11D8BA6ACA5B33D503A7EE2946 /* icons8-unchecked_checkboxPNG@2x.png in Resources */,
-				5659F2C4A3CB923630D04D94A14A49D9 /* icons8-unchecked_checkboxPNG@3x.png in Resources */,
-				9AFE7EE642B640096639CA0A53A720F6 /* Images.xcassets in Resources */,
+				FAD0E7DE966CA370DED5B3F33653696C /* Assets.xcassets in Resources */,
+				7CAEF04B4DA827CD4B7CD1009E7B436A /* unchecked_checkboxPDF.pdf in Resources */,
+				68B801418EB040DB9CF2EBA93ED874F9 /* unchecked_checkboxPNG@1x.png in Resources */,
+				4A7533497333E9C3A99D75E39E5926C0 /* unchecked_checkboxPNG@2x.png in Resources */,
+				38D8D1DD844F3C81AB3E31198A9CA0DF /* unchecked_checkboxPNG@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +499,7 @@
 /* Begin XCBuildConfiguration section */
 		0A9FC4B8CC6A338AB84F403FED048430 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48C1EDAEBC85B0F3CD523038B4842357 /* SwiftCheckBox.debug.xcconfig */;
+			baseConfigurationReference = F656AAC1B13E048A3D67273034C24AF3 /* SwiftCheckBox.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftCheckBox";
@@ -528,7 +516,7 @@
 		};
 		3D4808730342CDC4304FD49380211EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A438E5A7E15199C050C63C3DD4F6CF0A /* SwiftCheckBox.release.xcconfig */;
+			baseConfigurationReference = 20B07119975AAADD689BEFA7587A7FAC /* SwiftCheckBox.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -711,8 +699,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -784,7 +771,7 @@
 		};
 		B9CB4954205C7591ECAB3C0CD873EFB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48C1EDAEBC85B0F3CD523038B4842357 /* SwiftCheckBox.debug.xcconfig */;
+			baseConfigurationReference = F656AAC1B13E048A3D67273034C24AF3 /* SwiftCheckBox.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -849,7 +836,7 @@
 		};
 		E72085B7808C32E772741FEAF220E91C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A438E5A7E15199C050C63C3DD4F6CF0A /* SwiftCheckBox.release.xcconfig */;
+			baseConfigurationReference = 20B07119975AAADD689BEFA7587A7FAC /* SwiftCheckBox.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftCheckBox";

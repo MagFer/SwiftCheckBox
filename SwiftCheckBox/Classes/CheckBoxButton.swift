@@ -7,15 +7,8 @@
 
 import UIKit
 
-//public protocol CheckBoxButtonDelegate: class {
-//
-//    func selectedChange(isSelected: Bool)
-//
-//}
-
 public class CheckBoxButton: UIButton {
     
-//    public weak var delegate: CheckBoxButtonDelegate?
     public var selectedBlock: ((Bool)->())?
     
     public override init(frame: CGRect) {
@@ -33,43 +26,26 @@ public class CheckBoxButton: UIButton {
     }
     
     private func commonInit() {
-        setTitle("", for: .normal)
+        
         let appBundle = Bundle(for: Self.self)
-        print("App bundle: \(appBundle)")
         let assetsBundleURL = appBundle.bundleURL.appendingPathComponent("SwiftCheckBoxImgs.bundle")
         guard let assetsBundle = Bundle(url: assetsBundleURL) else {
             fatalError("nil bundle")
         }
         
-//        let uncheckedImg = UIImage(named: "icons8-unchecked_checkbox.pdf",
-//                                   in: assetsBundle, compatibleWith: nil)
-        let uncheckedImg = UIImage(named: "icons8-unchecked_checkbox.pdf",
-                                   in: assetsBundle, compatibleWith: nil)
-        
-        let image = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old")
-        
-        let imageF = UIImage(named: "Frameworks/SwiftCheckBox.framework/SwiftCheckBoxImgs.bundle/icons8-facebook_old 2")
-        
-
-
-        
-        let imgsBundle = Bundle(url: Bundle(for: CheckBoxButton.self).bundleURL.appendingPathComponent("SwiftCheckBoxImgs.bundle", isDirectory: true))
-        let checkedImgTest = UIImage(named: "icons8-unchecked_checkboxPNG", in: imgsBundle, compatibleWith: nil)
-        
-        let uncheckedImgPNG = UIImage(named: "icons8-unchecked_checkboxPNG",
-                                      in: assetsBundle, compatibleWith: nil)
-        setImage(uncheckedImgPNG, for: .normal)
-        setTitle("", for: .selected)
-        
-        let checkedImg = UIImage(podAssetName: "icons8-search-pdf") //FUNCIONA
+        let unckeckedImg = UIImage(named: "unchecked_checkbox", in: assetsBundle, compatibleWith: nil)
+        setImage(unckeckedImg, for: .normal)
+        setTitle("", for: .normal)
+         
+        let checkedImg = UIImage(podAssetName: "checked_checkbox")
         setImage(checkedImg, for: .selected)
+        setTitle("", for: .selected)
         
         addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
     }
     
     @objc private func touchUpInside() {
         self.isSelected = !self.isSelected
-//        delegate?.selectedChange(isSelected: self.isSelected)
         selectedBlock?(self.isSelected)
     }
 
