@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftCheckBox'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Check box buttons with images'
   s.swift_version    = '4.0'
 
@@ -23,11 +23,11 @@ Import SwiftCheckBox and add the CheckBoxButton both from the Storyboard or prog
                        DESC
 
   s.homepage         = 'https://github.com/MagFer/SwiftCheckBox'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://drive.google.com/uc?export=view&id=1aUdFr9rPXTUvRvXKtBvKMLADG7fo0mwQ', 'https://drive.google.com/uc?export=view&id=16zdO_nWN4NKfyOUMoANnVsFEApY7vDoV', 'https://drive.google.com/uc?export=view&id=157TGZsUgWMhXVGsUFjSCMVrj7rWY4_5Y'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ian Magarzo' => 'ian.magfer@gmail.com' }
   s.source           = { :git => 'https://github.com/MagFer/SwiftCheckBox.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/ianmagarzo'
 
   s.ios.deployment_target = '8.0'
 
