@@ -7,15 +7,8 @@
 
 import UIKit
 
-//public protocol CheckBoxButtonDelegate: class {
-//
-//    func selectedChange(isSelected: Bool)
-//
-//}
-
 public class CheckBoxButton: UIButton {
     
-//    public weak var delegate: CheckBoxButtonDelegate?
     public var selectedBlock: ((Bool)->())?
     
     public override init(frame: CGRect) {
@@ -33,20 +26,47 @@ public class CheckBoxButton: UIButton {
     }
     
     private func commonInit() {
+        
+        let appBundle = Bundle(for: Self.self)
+        let assetsBundleURL = appBundle.bundleURL.appendingPathComponent("SwiftCheckBoxImgs.bundle")
+        guard let assetsBundle = Bundle(url: assetsBundleURL) else {
+            fatalError("nil bundle")
+        }
+        
+        let unckeckedImg = UIImage(named: "unchecked_checkbox", in: assetsBundle, compatibleWith: nil)
+        setImage(unckeckedImg, for: .normal)
         setTitle("", for: .normal)
-        let uncheckedImg = UIImage(named: "unchecked_checkbox", in: Bundle(for: CheckBoxButton.self), compatibleWith: nil)
-        setImage(uncheckedImg, for: .normal)
-        setTitle("", for: .selected)
-        let checkedImg = UIImage(named: "checked_checkbox", in: Bundle(for: CheckBoxButton.self), compatibleWith: nil)
+         
+        let checkedImg = UIImage(podAssetName: "checked_checkbox")
         setImage(checkedImg, for: .selected)
+        setTitle("", for: .selected)
         
         addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
     }
     
     @objc private func touchUpInside() {
         self.isSelected = !self.isSelected
-//        delegate?.selectedChange(isSelected: self.isSelected)
         selectedBlock?(self.isSelected)
     }
 
+}
+
+//https://github.com/CocoaPods/CocoaPods/issues/1892
+extension UIImage {
+    
+   convenience init?(podAssetName: String) {
+       let podBundle = Bundle(for: CheckBoxButton.self)
+      
+       /// A given class within your Pod framework
+       guard let url = podBundle.url(forResource: "SwiftCheckBoxImgs",
+                                     withExtension: "bundle") else {
+           return nil
+                                       
+       }
+
+       self.init(named: podAssetName,
+                 in: Bundle(url: url),
+                 compatibleWith: nil)
+   }
+    
 }

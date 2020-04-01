@@ -33,9 +33,9 @@ Import SwiftCheckBox and add the CheckBoxButton both from the Storyboard or prog
 
   s.source_files = 'SwiftCheckBox/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SwiftCheckBox' => ['SwiftCheckBox/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SwiftCheckBoxImgs' => ['SwiftCheckBox/Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit' #, 'MapKit'
