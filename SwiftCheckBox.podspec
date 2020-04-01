@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftCheckBox'
-  s.version          = '0.1.0'
-  s.summary          = 'Check box buttons with images'
+  s.version          = '0.1.2'
+  s.summary          = 'Check box button'
   s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
@@ -23,11 +23,11 @@ Import SwiftCheckBox and add the CheckBoxButton both from the Storyboard or prog
                        DESC
 
   s.homepage         = 'https://github.com/MagFer/SwiftCheckBox'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://raw.githubusercontent.com/MagFer/SwiftCheckBox/master/Images/Simulator.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ian Magarzo' => 'ian.magfer@gmail.com' }
   s.source           = { :git => 'https://github.com/MagFer/SwiftCheckBox.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/ianmagarzo'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,7 +37,7 @@ Import SwiftCheckBox and add the CheckBoxButton both from the Storyboard or prog
      'SwiftCheckBoxImgs' => ['SwiftCheckBox/Assets/**/*']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit' #, 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
